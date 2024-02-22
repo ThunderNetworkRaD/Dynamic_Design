@@ -1,4 +1,5 @@
 export {
+  DynamicProvider,
   ThemeBuilder,
 } from './components/index';
 
