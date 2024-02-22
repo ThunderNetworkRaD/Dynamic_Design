@@ -1,4 +1,8 @@
 export {
+  ThemeBuilder,
+} from './components/index';
+
+export {
   DefaultColorScheme,
 } from './styles/index';
 
