@@ -1,0 +1,41 @@
+{
+  "name": "dynamic_design",
+  "version": "1.0.0",
+  "description": "A React Library containing multiple customizable components.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://source.thundernetwork.org/ThunderNetworkRaD/Dynamic_Design.git"
+  },
+  "keywords": [
+    "dynamic",
+    "design"
+  ],
+  "author": "ThunderNetworkRaD - KillerBossOriginal | Sadyn Project - Mambuco",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.5"
+  }
+}
